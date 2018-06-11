@@ -1,0 +1,35 @@
+.m-carousel{
+  margin-bottom: 10px;
+}
+.ex-s {
+  width: 100%;
+  border: 1px solid red;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+input,button{
+  border: 1px solid #000;
+}
+.indicators {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  overflow: hidden;
+  background-color: #999;
+  border-radius: 1000px;
+  text-align: center;
+}
+
+.dot.active {
+  background-color: red;
+}
